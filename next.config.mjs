@@ -2,6 +2,9 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/Sistema-casos-juridicos-front',
 };
 
 export default nextConfig;
