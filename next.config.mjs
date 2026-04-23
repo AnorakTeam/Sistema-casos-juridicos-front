@@ -4,6 +4,7 @@ const nextConfig = {
   reactCompiler: true,
   output: 'export',
   trailingSlash: true,
+  assetPrefix: '/Sistema-casos-juridicos-front',
 };
 
 export default nextConfig;
