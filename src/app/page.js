@@ -4,6 +4,7 @@ import * as React from "react"
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -44,10 +45,11 @@ export default function LoginPage() {
       </div>
 
       <div className="relative hidden lg:block">
-        <img
+        <Image
           src="/Consultorio-Juridico.jpg"
           alt="Imagen"
-          className="absolute inset-0 h-full w-full object-cover opacity-70"
+          fill
+          className="object-cover opacity-70"
         />
       </div>
 
